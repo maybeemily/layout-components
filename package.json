@@ -4,7 +4,9 @@
   "description": "layout components in react",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p --devtool source-map",
+    "start": "webpack-dev-server --hot --mode development --devtool eval-source-map"
   },
   "repository": {
     "type": "git",
